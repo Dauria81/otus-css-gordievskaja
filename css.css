@@ -7,6 +7,63 @@ height: 4574px;
 flex-shrink: 0;
 }
 
+.container {
+    display: flex;
+    max-width: 1397px;
+    height: 135px;
+    outline: 1px solid  #FFF;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: inline-block;
+    width: 182px;
+    height: 103px;
+    padding: 0;
+    margin: 20px 20px 20px 0;
+    vertical-align: center; 
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 600;
+}
+.nav {
+    display: inline-block;
+    width: 1195px;
+    height:28px;
+    padding: 0;
+    margin: 50px 0 50px 202px;
+    position: static;
+    color: #000;
+    text-align: right;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;  
+    vertical-align: center;           
+    }
+.button { 
+    width: 109px;
+    height:28px;
+    padding: 0;
+    margin: 20px 0 20px 20px;  
+    color: #000;
+    text-decoration: none;
+    }
+
+    .hero-section {
+        display: border-box;
+        width: 1440px;
+        height:630px;
+        padding: 0;
+        margin: 50px 0 50px 20px;
+        background: url("img\background.jpg");
+        background-size: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
 .quotes, .list {
 color: #000;
 font-family: Bitter;
@@ -33,3 +90,4 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+
