@@ -2,10 +2,84 @@ html {
 font-family: 'Bitter', serif;
 font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif;
-width: 1440px;
-height: 4574px;
 flex-shrink: 0;
 }
+body { margin: 0px;}
+.container {
+    display: flex;
+    max-width: 100%;
+    height: 135px;
+    outline: 1px solid  #FFF;
+    box-sizing: border-box;
+}
+
+.logo {
+    padding: 0;
+    margin: 0;
+    vertical-align: center; 
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 600;
+}
+.nav {
+    display: inline-block;
+    width: 1195px;
+    height:28px;
+    padding: 0;
+    margin: 50px 0 50px 202px;
+    position: static;
+    color: #000;
+    text-align: right;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;  
+    vertical-align: center;           
+    }
+.button { 
+    width: 109px;
+    height:28px;
+    padding: 0;
+    margin: 20px 0 20px 20px;  
+    color: #000;
+    text-decoration: none;
+    }
+
+.hero-section {
+    display: border-box;
+    width: 100%;
+    height:630px;
+    padding: 0;
+    margin: 50px 0 50px 20px;
+    background: url("img\background.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+.containermod { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 630px;
+    margin: 0 auto;
+    background-color: DDD0C7;
+    background-image: url(/img/inside-weather.jpg);
+    }
+
+.containermodst { 
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: #FFF;
+width: 690px;
+height: 360px;
+Top: 271px
+    }
 
 .quotes, .list {
 color: #000;
@@ -32,4 +106,52 @@ font-size: 18px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+}
+
+.block-bio {
+width: 115px;
+height: 23px;
+top: 1033px;
+left: 738px;
+}
+
+.nav-bio {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 80px;
+background-color: #FFF;
+margin: 0 auto;
+top: 916px;
+left: 138px;
+width: 1165px;
+height: auto;
+
+}
+
+.bio-1 {
+width: 466px;
+height: auto;
+text-align: left;
+margin: 0 auto;
+padding: 50px;
+}
+
+.bio-2 {
+align-self: baseline;
+width: 115px;
+height: 23px;
+top: 1033px;
+left: 738px;
+writing-mode: vertical-rl;
+margin: 0 auto;
+padding: 50px;    
+    }
+
+
+.bio-3 {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
 }
